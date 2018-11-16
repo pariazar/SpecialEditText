@@ -10,10 +10,7 @@ import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 
-/**
- * Created by HamedPa on 11/16/2018.
- */
-/**Developed by Hamed PariAzar 2018
+/**Developed by Hamed PariAzar 11/16/2018.
  *for more info You can read Document from
  * http://github.com/hamedpa
  * */
@@ -54,7 +51,7 @@ public class FView extends android.support.v7.widget.AppCompatEditText {
         Animation anim;
         int repeatTime = 2;
         int[] sel = defineAnimPath();
-        anim = AnimationUtils.loadAnimation(c, sel[selectAnim+1]);
+        anim = AnimationUtils.loadAnimation(c, sel[selectAnim]);
         this.animate().alpha(1.21f).setDuration(2600);
         anim.setRepeatCount(Animation.INFINITE);
         anim.reset();
@@ -70,7 +67,7 @@ public class FView extends android.support.v7.widget.AppCompatEditText {
         Animation anim;
         int repeatTime = 2;
         int[] sel = defineAnimPath();
-        anim = AnimationUtils.loadAnimation(c, sel[selectAnim+1]);
+        anim = AnimationUtils.loadAnimation(c, sel[selectAnim]);
         this.startAnimation(anim);
     }
 
@@ -78,11 +75,12 @@ public class FView extends android.support.v7.widget.AppCompatEditText {
     private int[] defineAnimPath() {
         return new int[]{
                     R.anim.animator
+                    ,R.anim.animator
                     ,R.anim.zoom
+                    ,R.anim.zoomout
                     ,R.anim.blink
                     ,R.anim.move
                     ,R.anim.fadein
-                    ,R.anim.zoomout
                     ,R.anim.fadein
                     ,R.anim.rotate
                     ,R.anim.slide_down
