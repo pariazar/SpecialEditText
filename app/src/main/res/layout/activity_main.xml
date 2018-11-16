@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.decoder.hamedpa.specialedittext.MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:src="@drawable/decoder"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:id="@+id/img" />
+    <com.decoder.hamedpa.fastedittext.FView
+        android:id="@+id/fview"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+    <com.decoder.hamedpa.fastedittext.FView
+        android:id="@+id/fview2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:password="true"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/fview"
+        android:layout_centerHorizontal="true" />
+ <TextView
+     android:layout_width="200dp"
+     android:layout_height="20dp"
+     android:text="forgot Password"
+     android:onClick="forgotpass"
+     android:textColor="@color/colorPrimary"
+     android:layout_below="@+id/fview2"
+     android:layout_alignLeft="@+id/fview2"
+     android:layout_alignStart="@+id/fview2" />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Sign in"
+        android:onClick="start"
+        android:drawableBottom="@color/colorAccent"
+        tools:layout_editor_absoluteY="278dp"
+        tools:layout_editor_absoluteX="142dp"
+        android:id="@+id/button"
+        android:fontFamily="serif"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
