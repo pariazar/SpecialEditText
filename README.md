@@ -17,7 +17,7 @@ you need to add
 define it in your layout
 
 	 <com.decoder.hamedpa.fastedittext.FView
-    	    android:id="@+id/test"
+    	    android:id="@+id/fview"
      	   android:layout_width="300dp"
      	   android:layout_height="30dp"
       	  android:layout_marginTop="62dp"/>
