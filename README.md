@@ -14,6 +14,13 @@ you need to add
    	}
  
 <h2>Usage</h2>
+define it in your layout
+
+	 <com.decoder.hamedpa.fastedittext.FView
+    	    android:id="@+id/test"
+     	   android:layout_width="300dp"
+     	   android:layout_height="30dp"
+      	  android:layout_marginTop="62dp"/>
 to use Fast EditText, first define FView
 
      FView fView  = (FView) findViewById(R.id.fview);
