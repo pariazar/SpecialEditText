@@ -12,6 +12,12 @@ you need to add
 			maven { url 'https://jitpack.io' }
 		}
    	}
+	
+	
+	
+		dependencies {
+	        implementation 'com.github.hamedpa:SpecialEditText:1.0.2'
+	}
  
 <h2>Usage</h2>
 define it in your layout
