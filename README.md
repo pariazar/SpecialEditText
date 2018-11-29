@@ -14,7 +14,8 @@ you need to add
    	}
 	
 	
-	
+And
+
 		dependencies {
 	        implementation 'com.github.hamedpa:SpecialEditText:1.0.2'
 	}
