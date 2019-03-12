@@ -2,7 +2,7 @@
 Find your favorite animation and easily start it for editText
 there are different animations that let you choose them better.
 <h2>Screenshots</h2>
-<img src="http://downloadcenter.pariazar.ir/git/1.gif" alt="Fast EditText">
+<img src="http://downloadcenter.decoderco.ir/git/1.gif" alt="Fast EditText">
 <h2>Getting Started</h2>
 you need to add
 
@@ -39,7 +39,7 @@ then you will able to start animation with StartAnimations method
     fView.startAnimations(9);
 
 <h3>Customize</h3>
-<img src="http://downloadcenter.pariazar.ir/git/fastedittext.png" alt="Fast EditText">
+<img src="http://downloadcenter.decoderco.ir/git/fastedittext.png" alt="Fast EditText">
 The 3D animation effect that you want to set on View
 
     fView.startAnimations(2,imageView);
